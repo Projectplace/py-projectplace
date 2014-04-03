@@ -31,6 +31,10 @@ First, install Flask, again use pip:
 ```bash
     $ pip install flask
 ```
+Simply run the app with:
+```bash
+    $ python exampleapp.py
+```
 
 Insert your client_id and client_secret. To run this locally you need to register an API app with the callback 'https://localhost:8100'
 
