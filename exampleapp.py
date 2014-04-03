@@ -81,4 +81,4 @@ if __name__ == "__main__":
     os.environ['DEBUG'] = "1"
 
     app.secret_key = os.urandom(24)
-    app.run(debug=True, port=5000)
+    app.run('0.0.0.0', debug=True, port=8100, ssl_context='adhoc')
