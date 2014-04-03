@@ -32,6 +32,6 @@ First, install Flask, again use pip:
     $ pip install flask
 ```
 
-Insert your client_id and client_secret. To run this locally you need to register an API app with the callback 'http://localhost:5000'
+Insert your client_id and client_secret. To run this locally you need to register an API app with the callback 'https://localhost:8100'
 
 GLHF
